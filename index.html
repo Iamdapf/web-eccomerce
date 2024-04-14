@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anabella's Shop</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Anabella's <span class="verde">Sh</span><span>op</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#">Inicio</a>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Menú</a>
+                    <a href="#">Tienda</a>
+                    <a href="#">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Visitanos!</h2>
+                    <a href="#" class="btn bordes">ir de compras</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="/assets/bg_video.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a!</p>
+            <h1>Anabella's Shop</h1>
+            <p>En Anabella's Shop nos emociona enormemente darles la bienvenida a nuestra tienda en línea, donde la
+                elegancia y la calidad se encuentran en cada producto. Somos más que una simple tienda, somos un destino
+                para aquellos que buscan artículos cuidadosamente seleccionados que reflejen su estilo único y
+                sofisticado. Desde moda hasta juguetes para nuestros niños, cada artículo que ofrecemos ha sido elegido
+                con esmero para brindarle una experiencia de compra inigualable. Nuestra pasión por la excelencia y el
+                servicio al cliente nos impulsa a superar sus expectativas en cada visita. ¡Disfrute explorando nuestra
+                colección y háganos parte de su estilo!
+            </p>
+            <a href="#" class="btn btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/nosotros1.webp" alt="mujer comiendo pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/nosotros2.webp" alt="mujeres comiendo pizza">
+                <img data-src="assets/img/nosotros3.webp" alt="plato con pasta">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor">
+        <h2 class="texto-platillos">Productos populares</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Ropa</button>
+            <button class="pasta btn btn-verde">Maquillaje</button>
+            <button class="pizza btn btn-verde">Juguetes</button>
+            <button class="postres btn btn-verde">Skincare</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada.webp" alt="ensalada">
+                <h2>Sueter</h2>
+                <p>Sueter manga larga</p>
+                <div class="precio">
+                    <p>$45.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada2.webp" alt="ensalada">
+                <h2>Sueter</h2>
+                <p>sueter con apertura </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada3.webp" alt="ensalada">
+                <h2>Top</h2>
+                <p>Top estilo tejido</p>
+                <div class="precio">
+                    <p>$50.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta1.webp" alt="pasta">
+                <h2>Corrector de Ojeras</h2>
+                <p>Corrector de ojeras hidratante</p>
+                <div class="precio">
+                    <p>$20.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta2.webp" alt="pasta">
+                <h2>Polvo suelto</h2>
+                <p>Polvo suelto con acabado matte</p>
+                <div class="precio">
+                    <p>$25.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta3.webp" alt="pasta">
+                <h2>Pomada para cejas</h2>
+                <p>Pomada para cejas acabado matte</p>
+                <div class="precio">
+                    <p>$15.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza1.webp" alt="pizza">
+                <h2>Pista</h2>
+                <p>Pista de carrera</p>
+                <div class="precio">
+                    <p>$50.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza2.webp" alt="pizza">
+                <h2>Heladeria</h2>
+                <p>Heladeria con accesorios</p>
+                <div class="precio">
+                    <p>$30.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza3.webp" alt="pizza">
+                <h2>Cocina</h2>
+                <p>Cocina con accesorios</p>
+                <div class="precio">
+                    <p>$35.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres1.webp" alt="postre">
+                <h2>Hidratante</h2>
+                <p>Hidratante </p>
+                <div class="precio">
+                    <p>$47.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="postre">
+                <h2>Serum</h2>
+                <p>Serum de niacinamida</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres3.webp" alt="postre">
+                <h2>Foreo</h2>
+                <p>Limpiador facial</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>¡Viste tu sonrisa con nuestro estilo y maquillaje! Porque la moda es divertida, el skincare es vital, ¡y
+                jugar es un arte!</h2>
+            <p>¡Donde la moda se une al encanto! Descubre tu estilo, cuida tu piel y diviértete con nuestros juguetes,
+                todo en un solo lugar</p>
+            <a href="#" class="btn btn-verde">Ir de compras</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor">
+        <h2>Un poco sobre nosotros</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La exelencia está en la diversidad y el modo de progresar
+                    es conocer y comparar las diversidades de productos, culturas y
+                    técnicas
+                </h3>
+                <p>En el corazón de la ciudad, se alza un refugio de estilo y alegría: nuestra tienda es mucho más que un lugar de compras, es un destino donde la moda se fusiona con el encanto, y donde la belleza se encuentra con la diversión en cada esquina.
+
+                    Desde elegantes conjuntos hasta los más vibrantes productos de maquillaje y cuidado de la piel, nuestro catálogo cuidadosamente seleccionado ofrece una amplia gama de opciones para que puedas expresar tu personalidad con confianza y estilo.
+                    
+                    Pero no nos detenemos ahí. Con una sección dedicada a los más pequeños, nos enorgullece ofrecer una experiencia de compra inclusiva y divertida para toda la familia. Desde juguetes educativos hasta accesorios llenos de color, cada artículo ha sido elegido con cuidado para inspirar la imaginación y fomentar el juego activo.
+                    
+                    Nuestro equipo está aquí para ayudarte en cada paso del camino, desde encontrar el atuendo perfecto hasta descubrir los mejores productos de belleza para realzar tu belleza natural. Así que ven y únete a nosotros en este emocionante viaje de estilo, belleza y diversión. ¡Te esperamos con los brazos abiertos en nuestro mundo de moda y alegría!
+                    
+                .</p>
+                <a href="#" class="btn btn-verde">Leer Bíografia</a>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="/assets/img/chef.webp" alt="fotografia del chef">
+            </div>
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i>Ciudad Ojeda, C.C.Ojeda Mall</p>
+            <p><i class="fas fa-envelope"></i> anabella'shop</p>
+            <p><i class="fas fa-phone-alt"></i>+58 (412)163-3393</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Pedro" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Pedro" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+58424874" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Ciudad Ojeda, C.C.Ojeda Mall</p>
+            </div>
+            <div class="info">
+                <h3>Días de ofertas</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Sabados 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Suscribirse">
+            </div>
+        </div>
+    </div>
+        <p class="total">Total: $0.00</p>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2024 Anabella's Shop, desarrollado por Paz Darisbell</p>
+    </footer>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
